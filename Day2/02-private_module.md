@@ -26,7 +26,7 @@ To integrate this module into your configuration, add this to the end of your `m
 ```hcl
 module "server" {
   source  = "app.terraform.io/training-nyl/server/aws"
-  version = "0.0.7"
+  version = "0.1.1"
   environment = "dev"
   identity = var.identity
   key_name = module.keypair.key_name
